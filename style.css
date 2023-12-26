@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#top {
+  background-color: #ffcd9e;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#wrapper {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#t-left h1 {
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+#t-left p {
+  font-size: 1.2vw;
+  margin-bottom: 30px;
+  margin-top: 0;
+  width: 75%;
+}
+
+#t-left h3 {
+  font-size: 1.2vw;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  margin-top: 0;
+  width: 75%;
+}
+
+#t-left input {
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  border: 3px solid black;
+  padding: 20px;
+  width: 350px;
+  font-size: 0.9vw;
+}
+
+#t-left button {
+  border-radius: 5px;
+  background-color: #282828;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin-left: 15px;
+  font-size: 0.9vw;
+}
+
+#t-left h5 {
+  color: white;
+  font-weight: 100;
+  font-size: 0.8vw;
+  margin-left: 40px;
+}
+
+#bottom {
+  background-color: #282828;
+  height: 30%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper-2 {
+  height: 80%;
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#b-left {
+  display: flex;
+  flex-direction: column;
+  line-height: 5vh;
+  color: white;
+}
+
+#b-left h6 {
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+#b-right {
+  text-align: right;
+  color: white;
+  line-height: 7vh;
+}
+
+#b-right h6 {
+  font-size: 1vw;
+  font-weight: 100;
+}
